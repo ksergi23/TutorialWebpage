@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+/* Navbar*/
+#navbar{
+    background-color:rgb(14, 138, 132);
+}
+li {
+    display: inline-block;
+    padding: 30px;
+   
+}
+
+ul{
+    margin:0;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Architects Daughter', sans-serif;
+    font-size: 40px;
+}
+li a:hover {
+    color: rgb(3, 62, 172);
+
+}
+ /* Header*/
+ #header{
+     background-color:rgb(3, 62, 172);
+    height: 300px;
+
+ }
+ .wrapper{
+     padding: 5em;
+     text-align: center;
+     font-family: sans-serif;
+ }
