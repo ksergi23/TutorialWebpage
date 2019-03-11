@@ -1,37 +1,174 @@
-body{
-    margin: 0;
+body {
+    background-color: rgb(240, 234, 234);
+    margin: 0px;
+
+ 
 }
-/* Navbar*/
+
+/* NAVBAR */
+
 #navbar{
-    background-color:rgb(14, 138, 132);
+    background-color: rgb(8, 42, 116);
+    position:fixed;
+    top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 1;
 }
+
 li {
     display: inline-block;
-    padding: 30px;
+    padding: 10px;
    
 }
 
-ul{
-    margin:0;
+li a:hover {
+    color: rgb(57, 119, 252);
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
 }
-li a{
+
+.navlinks {
+    margin: 0;
+}
+
+li a {
     color: white;
     text-decoration: none;
-    font-family: 'Architects Daughter', sans-serif;
-    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px black;
 }
-li a:hover {
-    color: rgb(3, 62, 172);
 
+/*NAV SIDEBAR*/
+.sideright{
+    background-color: rgb(8, 42, 116);
+    height: 310px;
+    width: 100px;
+    padding: 2.2%;
+    position: absolute;
+    top:5px;
+    left:80em;
+    margin-right: 3vw;
+    text-align: left;
+
+   
 }
- /* Header*/
- #header{
-     background-color:rgb(3, 62, 172);
-    height: 300px;
+.sidelinks{
+color: white;
+text-shadow: 4px 4px 4px black;
+}
 
- }
- .wrapper{
-     padding: 5em;
-     text-align: center;
-     font-family: sans-serif;
- }
+
+
+/* HEADER */
+
+#header{
+    background-image: url("https://images.unsplash.com/photo-1551419762-4a3d998f6292?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-size: cover;
+    padding:2em;
+   
+    
+    }
+    .wrapper{
+        text-align: center;
+        font-size: 35px;
+        font-family:'Montserrat', sans-serif;
+        color: white;
+        text-shadow: 4px 4px 4px black;
+        
+    }
+   
+    /* Body*/
+  .about{
+    font-size: 30px;
+    font-family: sans-serif;
+    color:  black;
+    padding:3px;
+    top: 250px;
+    left: 0px;
+    margin: 5%;
+    
+    
+  }
+  .objectPhoto{
+      border-radius: 20px;
+      width: 450px;
+      height: 200px;
+      margin-left:200px; 
+      margin-top: 170px;
+   
+    
+    
+  }
+  
+    .objects{
+        font-size: 30px;
+        font-family: sans-serif;
+        color:  black;
+        position: relative;
+        top: 400px;
+        left: 0px;
+        
+    }
+    .objectsP{
+        font-size: 20px;
+        font-family: sans-serif;
+        text-align: left;
+        color:  black;
+        position: absolute;
+        top: 1100px;
+        left: 0px;
+    }
+   
+    .arrays{
+       font-size: 30px;
+       font-family: sans-serif;
+       color:black;
+       position: relative;
+       top: 350px;
+       left: 0px;
+       padding: -1em;
+    }
+
+    .arrayP{
+        font-size: 20px;
+        font-family: sans-serif;
+        text-align: left;
+        color:  black;
+        position: relative;
+        top: -25px;
+        left: 0px;
+    }
+
+    .forLoop{
+        font-size: 30px;
+        font-family: sans-serif;
+        color:black;
+        position: relative;
+        top: 600px;
+        left: 0px;
+        padding: -1em;
+    }
+
+    .forLoopP{
+          font-size: 20px;
+        font-family: sans-serif;
+        text-align: left;
+        color:  black;
+        position: relative;
+        top: -25px;
+        left: 0px;
+    }
+
+    /* FOOTER*/
+    #footer{
+        color: white;
+        position: absolute;
+        background-color: rgba(31, 29, 29, 0.9);
+        bottom: -1600px;
+        height: 12vh;
+        width: 100%;
+        padding-left: 1vw;
+    }
